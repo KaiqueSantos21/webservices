@@ -21,11 +21,11 @@ public class User implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public Long id;
-	public String name;
-	public String email;
-	public String phone;
-	public String password;
+	private Long id;
+	private String name;
+	private String email;
+	private String phone;
+	private String password;
 	
 	@JsonIgnore
 	@OneToMany(mappedBy = "client")
