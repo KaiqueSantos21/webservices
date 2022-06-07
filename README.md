@@ -13,7 +13,7 @@ de serviços CRUD de usuários, pedidos e produtos, com associações entre este
 - Spring Boot
 - JPA / Hibernate
 - Maven
--
+
 ## Deploy em produção
 - Back end: Heroku
 - Banco de dados: PostgreSQL
